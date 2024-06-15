@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href=" ">
+</head>
+
+<body>
+    {% include 'navbar2.html' %}
+    <div class="container">
+        <h2 class="mt-3">Employee Management System</h2>
+        <a class="btn btn-primary mt-3" href="/add_emp" role="button">Add Emp</a>
+        <a class="btn btn-primary mt-3" href="/remove_emp" role="button">Remove Emp</a>
+        <a class="btn btn-primary mt-3" href="/filter_emp" role="button">Filter Emp</a>
+        <a class="btn btn-primary mt-3" href="/view_emp" role="button">View Emp</a>
+        <a class="btn btn-primary mt-3" href="/update_emp" role="button">Update Emp</a>
+      </div>
+</body>
+
+</html>
